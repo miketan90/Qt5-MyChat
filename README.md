@@ -56,17 +56,17 @@
 ### 3.效果
 1. 登录和注册
 <center class="half">
-<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C7.jpg" width = "48%" height = "48%" >  <img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C8.jpg" width = "48%" height = "48%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/效果图7.jpg" width = "48%" height = "48%" >  <img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/效果图8.jpg" width = "48%" height = "48%" >
 </center>
 
 2. 主界面
-<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C1.jpg" width = "100%" height = "100%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/效果图1.jpg" width = "100%" height = "100%" >
 
 3. 聊天
-<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C2.jpg" width = "100%" height = "100%" >
-<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C6.jpg" width = "100%" height = "100%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/效果图2.jpg" width = "100%" height = "100%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/效果图6.jpg" width = "100%" height = "100%" >
 
 4. 好友操作 
 <center class="half">
-<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C4.jpg" width = "38%" >  <img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C5.jpg" width = "30%" >  <img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C3.jpg" width = "30%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/效果图4.jpg" width = "38%" >  <img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/效果图5.jpg" width = "30%" >  <img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/效果图3.jpg" width = "30%" >
 </center>
