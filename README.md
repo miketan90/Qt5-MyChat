@@ -9,6 +9,7 @@
 - **客户端**：TCP通信，主要功能有注册、登录、聊天、收发离线消息、搜索添加删除好友、验证添加好友请求、好友在线显示。
 
 **2.1 聊天主要思路**
+
 客户端A给客户端B发送一条消息
 1. 客户端B在线
     - 首先客户端A把消息发给服务器
@@ -27,6 +28,7 @@
     - 如果有，读取并发送给客户端B，然后**删除离线缓存中的数据**
 
 **2.2 好友验证主要思路**
+
 客户端A请求客户端B添加好友
 1. 客户端B在线
     - 首先客户端A把好友请求发给服务器
@@ -54,17 +56,17 @@
 ### 3.效果
 1. 登录和注册
 <center class="half">
-<img src="./img/效果7.jpg" width = "48%" height = "48%" >  <img src="./img/效果8.jpg" width = "48%" height = "48%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C7.jpg" width = "48%" height = "48%" >  <img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C8.jpg" width = "48%" height = "48%" >
 </center>
 
 2. 主界面
-<img src="./img/效果1.jpg" width = "100%" height = "100%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C1.jpg" width = "100%" height = "100%" >
 
 3. 聊天
-<img src="./img/效果2.jpg" width = "100%" height = "100%" >
-<img src="./img/效果6.jpg" width = "100%" height = "100%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C2.jpg" width = "100%" height = "100%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C6.jpg" width = "100%" height = "100%" >
 
 4. 好友操作 
 <center class="half">
-<img src="./img/效果4.jpg" width = "38%" >  <img src="./img/效果5.jpg" width = "30%" >  <img src="./img/效果3.jpg" width = "30%" >
+<img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C4.jpg" width = "38%" >  <img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C5.jpg" width = "30%" >  <img src="https://github.com/miketan90/Qt5-MyChat/blob/master/img/%E6%95%88%E6%9E%9C3.jpg" width = "30%" >
 </center>
