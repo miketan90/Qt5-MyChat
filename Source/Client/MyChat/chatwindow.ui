@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatWindow</class>
+ <widget class="QWidget" name="ChatWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>925</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <widget class="QWidget" name="widget_4" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QTextEdit" name="recvTxtEdit">
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="frame">
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <property name="spacing">
+                <number>2</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QFontComboBox" name="fontCbx"/>
+               </item>
+               <item>
+                <widget class="QComboBox" name="sizeCbx">
+                 <property name="maximumSize">
+                  <size>
+                   <width>50</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>5</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>6</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>7</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>8</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>9</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>10</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>11</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>12</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>13</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>14</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="boldBtn">
+                 <property name="maximumSize">
+                  <size>
+                   <width>50</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="baseSize">
+                  <size>
+                   <width>0</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>加粗</string>
+                 </property>
+                 <property name="text">
+                  <string>加粗</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="italicBtn">
+                 <property name="maximumSize">
+                  <size>
+                   <width>50</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>倾斜</string>
+                 </property>
+                 <property name="text">
+                  <string>倾斜</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="underlineBtn">
+                 <property name="maximumSize">
+                  <size>
+                   <width>50</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>下划线</string>
+                 </property>
+                 <property name="text">
+                  <string>下划线</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="colorBtn">
+                 <property name="maximumSize">
+                  <size>
+                   <width>50</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>颜色</string>
+                 </property>
+                 <property name="text">
+                  <string>颜色</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="saveBtn">
+                 <property name="maximumSize">
+                  <size>
+                   <width>50</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>保存</string>
+                 </property>
+                 <property name="text">
+                  <string>保存</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="clearBtn">
+                 <property name="maximumSize">
+                  <size>
+                   <width>50</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>清除</string>
+                 </property>
+                 <property name="text">
+                  <string>清除</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="msgTxtEdit">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>100</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="sendBtn">
+           <property name="text">
+            <string>发送</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="usrTbWidget">
+     <column>
+      <property name="text">
+       <string>用户</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/sl.jpg</file>
+        <file>img/sla.jpg</file>
+        <file>img/default0.png</file>
+        <file>img/ChatIcon.jpg</file>
+        <file>img/default1.png</file>
+        <file>img/default2.png</file>
+        <file>img/default3.png</file>
+        <file>img/default4.png</file>
+        <file>img/loading.gif</file>
+    </qresource>
+</RCC>
